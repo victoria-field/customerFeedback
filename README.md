@@ -1,1 +1,1 @@
-# Customer Feedback app for small buisnesses
+# Customer Feedback app for small businesses
