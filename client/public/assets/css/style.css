@@ -1,0 +1,56 @@
+img {
+	max-width: 100%;
+}
+
+.row, .column {
+	display: flex;
+}
+
+
+
+.brand-logo{
+	background-color: rgb(141, 179, 43);
+	width: 40%;
+	height: 90px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+
+}
+
+.nav-wrapper{
+	background-color: brown;
+	height: 90px;
+}
+
+.jumbotron{
+	background-color: rgb(61, 213, 255);
+	height: 600px;
+
+}
+
+body{
+	background-color: rgb(26, 179, 2);
+}
+
+.column {
+	flex-direction: column;
+}
+
+.y-center {
+	align-items: center;
+}
+
+.modal {
+	position: absolute;
+	top: 45px;
+	width: 500px;
+	left: 0;
+	right: 0;
+	z-index: 50;
+	margin: 0 auto;
+	background: #eee;
+	padding: 25px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
